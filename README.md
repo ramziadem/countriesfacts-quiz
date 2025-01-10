@@ -6,7 +6,7 @@ Welcome to the **Country Facts Quiz App**, a fun and interactive quiz game to te
 
 ## 🖼️ Preview
 
-![Country Facts Quiz Screenshot](./screenshot.png)
+![Country Facts Quiz Screenshot](https://raw.githubusercontent.com/ramziadem/countriesfacts-quiz/refs/heads/main/src/app/logo1x1.jpeg)
 
 ---
 
@@ -24,44 +24,49 @@ Welcome to the **Country Facts Quiz App**, a fun and interactive quiz game to te
 
 ## 📚 Technologies Used
 
-- ⚛️ **React**: For creating interactive UI components.
 - ✨ **Next.js**: The framework powering the app.
 - 🎨 **Tailwind CSS**: For a modern and responsive design.
 - 🌐 **Axios**: For fetching country data from the [Country Data API](https://country-data-api.onrender.com).
 - 🖼️ **Next.js Image Component**: For optimized image handling.
 - 🖱️ **Custom Cursor Effects**: Adds a modern touch to the user experience.
+- 
 
 ---
 
 ## 🛠️ Installation & Usage
 
-Follow these steps to run the project locally:
+- To play the game online : [https://countriesfacts-quiz.onrender.com/](https://countriesfacts-quiz.onrender.com/)
+
+- To play locally : Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/countries-facts-quiz.git
 cd countries-facts-quiz
 2️⃣ Install Dependencies
-bash
+
 Copy code
 npm install
 3️⃣ Start the Development Server
-bash
+
 Copy code
 npm run dev
 4️⃣ Open in Browser
 Visit http://localhost:3000 to explore the app.
 
 📂 Project Structure
-csharp
+
 Copy code
-├── components/          # Reusable React components
-│   ├── CursorEffect.js  # Custom cursor effects
-├── pages/               # Next.js pages
-│   ├── index.js         # Main quiz app
-├── public/              # Static assets (e.g., placeholder flag image)
-├── styles/              # Custom styles
-├── README.md            # Documentation
+  # Custom cursor effects
+├── src/                # Root directory for source files
+│   ├── app/            # Next.js app directory
+│   │   ├── components/ # Reusable React components
+│   │   │   ├── CursorEffect.js # Custom cursor effects component
+│   │   ├── page.tsx    # Main quiz app page
+├── public/             # Static assets (e.g., placeholder flag image)
+├── styles/             # Custom styles
+├── README.md           # Documentation
+
 🎮 How to Play
 Click Start Quiz to begin.
 Answer questions by clicking on the correct option.
@@ -79,6 +84,7 @@ Copy code
   "languages": ["German"],
   "flag": "https://flagcdn.com/w320/de.png",
   "region": "Europe",
+  "sub_region : "Western Europe",
   "dial_code": "+49"
 }
 📸 Screenshots
@@ -108,17 +114,10 @@ Inspired by my love for geography and interactive learning tools.
 📧 Contact
 Feel free to reach out if you have any questions or suggestions:
 
-GitHub: @your-username
-Email: your.email@example.com
+GitHub: @ramziadem
+Email: contact@ramziadem.com
 🌟 If you enjoy this project, don’t forget to give it a star on GitHub!
 
 markdown
 Copy code
 
----
-
-### Notes:
-
-1. Replace placeholders like `ramziadem`, `contact@ramziadem.com`, and paths for screenshots (`screenshot.png`, `quiz-question-screenshot.png`, etc.) with actual data from your project.
-2. Add screenshots of your app in the repository and reference them in the `README.md`.
-3. Create a `LICENSE` file if one is not already included.
